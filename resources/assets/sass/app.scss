@@ -13,11 +13,16 @@
 
 @import "partials/main";
 
-// Background color for the top bar
-$topbar-bg-color: #2c3840;
-$topbar-bg: $topbar-bg-color;
+@import url('https://fonts.googleapis.com/css?family=Lora:700i');
 
 body{
+    background-color: $body-bg;
+}
+
+#site-header{
+    h1{
+        font-family: 'Lora', serif;
+    }
     background-color: $body-bg;
 }
 

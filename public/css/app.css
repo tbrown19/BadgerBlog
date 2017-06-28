@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Lora:700i);@charset "UTF-8";
 
 /**
  * Foundation for Sites by ZURB
@@ -7338,5 +7338,13 @@ a.thumbnail image {
 
 body {
   background-color: #f5f8fa;
+}
+
+#site-header {
+  background-color: #f5f8fa;
+}
+
+#site-header h1 {
+  font-family: 'Lora', serif;
 }
 
