@@ -11,6 +11,13 @@
 
 @import "foundation-icons";
 
-body {
-    background-color: pink;
+@import "partials/main";
+
+// Background color for the top bar
+$topbar-bg-color: #2c3840;
+$topbar-bg: $topbar-bg-color;
+
+body{
+    background-color: $body-bg;
 }
+

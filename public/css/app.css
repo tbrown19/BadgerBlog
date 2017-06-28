@@ -5893,7 +5893,7 @@ a.thumbnail image {
 @font-face {
   font-family: "foundation-icons";
   src: url(/fonts/foundation-icons.eot?92827f088b9eda87169bdc2b9888ce52);
-  src: url(/fonts/foundation-icons.eot?92827f088b9eda87169bdc2b9888ce52?#iefix) format("embedded-opentype"), url(/fonts/foundation-icons.woff?a188c2f768ce5033d3f5d47be7280e25) format("woff"), url(/fonts/foundation-icons.ttf?e20945d7c929279ef7a6f1db184a4470) format("truetype"), url(/fonts/foundation-icons.svg?17cb1ed2e8467b51bb26cf017daa9722#fontcustom) format("svg");
+  src: url(/fonts/foundation-icons.eot?92827f088b9eda87169bdc2b9888ce52) format("embedded-opentype"), url(/fonts/foundation-icons.woff?a188c2f768ce5033d3f5d47be7280e25) format("woff"), url(/fonts/foundation-icons.ttf?e20945d7c929279ef7a6f1db184a4470) format("truetype"), url(/fonts/foundation-icons.svg?17cb1ed2e8467b51bb26cf017daa9722) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -7324,7 +7324,19 @@ a.thumbnail image {
   content: "\F21A";
 }
 
+.top-bar {
+  background-color: #2c3840;
+}
+
+.top-bar ul li {
+  background-color: #2c3840;
+}
+
+.top-bar ul li a {
+  color: #ecf0f1;
+}
+
 body {
-  background-color: pink;
+  background-color: #f5f8fa;
 }
 

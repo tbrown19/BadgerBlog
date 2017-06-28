@@ -6,7 +6,7 @@
  */
 
 require('foundation-sites');
-
+require('./bootstrap.js');
 window.Vue = require('vue');
 
 /**

@@ -1,0 +1,12 @@
+
+$backgroundColor: rgb(44, 56, 64);
+$textColor: rgb(236, 240, 241);
+.top-bar{
+    background-color: $backgroundColor;
+    ul li {
+        background-color: $backgroundColor;
+        a{
+            color: $textColor;
+        }
+    }
+}
