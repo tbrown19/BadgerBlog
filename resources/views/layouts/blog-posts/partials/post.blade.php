@@ -1,7 +1,7 @@
-<div class="blog-post">
+<div class="blog-post" >
 
-    <h3>{{ $post->title }}</h3>
-    <h5>{{ Carbon\Carbon::-parse($post->created_at)->format('m-d-Y')}}</h3>
+    <h2 class="post-title">{{ $post->title }}</h3>
+    <h6>{{ $post->created_at->toFormattedDateString() }}</h3>
     {{-- <img class="thumbnail" src="http://placehold.it/850x350"> --}}
     {{ $post->content }}    
     <div class="callout">

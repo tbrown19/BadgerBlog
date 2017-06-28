@@ -4,13 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Carbon;
+use \App\Post;
 class PostController extends Controller
 {
     //
     function index(){
-        $posts = DB::table('posts')->get();
-
+        $posts = Post::all();
         return view('layouts.home', ['posts' => $posts]);
     }
 }

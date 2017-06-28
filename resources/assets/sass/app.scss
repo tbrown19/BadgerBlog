@@ -3,23 +3,33 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
-@import "variables";
-
-@import "node_modules/foundation-sites/assets/foundation";
-
 @import "settings";
 
+// @import "node_modules/foundation-sites/assets/foundation";
+
+
 @import "foundation-icons";
+// Settings
+@import "vendor/zurb/foundation/scss/settings/settings";
+
+// Foundation
+@import "vendor/zurb/foundation/scss/foundation";
+
+@include foundation-everything(true);
 
 @import "partials/main";
 
 @import url('https://fonts.googleapis.com/css?family=Lora:700i');
+
+$body-bg: #f5f8fa;
 
 body{
     background-color: $body-bg;
 }
 
 #site-header{
+    padding: 1rem;
+
     h1{
         font-family: 'Lora', serif;
     }
